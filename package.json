@@ -1,0 +1,22 @@
+{
+  "name": "slack-ooo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.inloop.eu/martin.gana/slack-ooo"
+  },
+  "author": "Martin Gana",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^1.3.0",
+    "dotenv": "^4.0.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  }
+}
